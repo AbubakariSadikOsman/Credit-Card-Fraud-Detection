@@ -12,14 +12,20 @@ The dataset contains only numeric input variables that have undergone PCA transf
 
 4.	Strengths of Logistic Regression
 a)	In a low-dimensional dataset, logistic regression is less prone to overfitting.
+
 b)	Logistic regression is very efficient when the dataset has features that are linearly separable.
+
 c)	The outputs of a logistic regression are well-calibrated probabilities along with classification results.
+
 d)	Logistic regression has a low bias and higher variance.
 
    Weaknesses of Logistic Regression
 a)	In high-dimensional datasets, logistic regression is prone to overfitting.
+
 b)	In linear regression, independent and dependent variables are linearly related. However, logistic regression requires that independent variables are linearly related to the log odds (log(p/1-p)).
+
 c)	Logistic regression requires a large dataset and sufficient training for all the categories it needs to satisfy.
+
 d)	Logistic regression cannot solve non-linear problems since it has a linear decision surface.
 
 5.		REPORT OF THE RESULTS
