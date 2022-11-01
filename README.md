@@ -11,6 +11,7 @@ The dataset contains only numeric input variables that have undergone PCA transf
 3.	Using Naïve Bayes as the benchmark for the machine learning algorithm I used in this project, which is logistic regression for classification, logistic regression is supervised machine learning that uses independent variables to predict the dependent variable. The dependent is binary or dichotomous or has two categories labeled “0” and “1.” High volume of data is favorable for logistic regression, unlike the Naïve Bayes method which does better classification based due to small or fewer samples of data. Also, The features of the dataset are split in a linear fashion so if the features are correlated, due to linear classification, logistic regression works more efficiently with data analysis and gives better results than Naïve Bayes. Finally, logistic regression has a low bias and higher variance whiles Naïve Bayes has a higher bias and low variance.
 
 4.	Strengths of Logistic Regression
+
 a)	In a low-dimensional dataset, logistic regression is less prone to overfitting.
 
 b)	Logistic regression is very efficient when the dataset has features that are linearly separable.
@@ -19,7 +20,8 @@ c)	The outputs of a logistic regression are well-calibrated probabilities along 
 
 d)	Logistic regression has a low bias and higher variance.
 
-   Weaknesses of Logistic Regression
+Weaknesses of Logistic Regression
+   
 a)	In high-dimensional datasets, logistic regression is prone to overfitting.
 
 b)	In linear regression, independent and dependent variables are linearly related. However, logistic regression requires that independent variables are linearly related to the log odds (log(p/1-p)).
