@@ -1,6 +1,8 @@
 # Credit-Card-Fraud-Detection
 This project uses machine learning algorithms  to analyze and detect whether credit card is fraudulent or genuine. 
 
+PROJECT TITLE: CREDIT CARD FRAUD DETECTION
+
 1.	The dataset includes credit card transactions performed in September 2013 by European cardholders. This dataset shows transactions that took place over the course of two days, out of which there were 492 frauds out of 284,807 transactions. The dataset is quite uneven; frauds, which are in the positive category, represent 0.172% of all transactions.
 The dataset contains only numeric input variables that have undergone PCA transformation. Unfortunately, we are unable to offer the original characteristics and further context for the data due to confidentiality concerns. The major components derived from PCA are features V1, V2..., and V28. The only features that have not been changed with PCA are "Time" and "Amount." The seconds that passed between each transaction and the dataset's initial transaction are listed in the feature "Time." The transaction amount is represented by the feature "Amount," which may be utilized for example-dependent, cost-sensitive learning. The response variable, feature "Class," has a value of 1 in cases of fraud and 0 in all other cases.
 
@@ -22,9 +24,11 @@ d)	Logistic regression cannot solve non-linear problems since it has a linear de
 
 5.		REPORT OF THE RESULTS
 After the exploration of the credit card dataset, it was evident that the dependent variable ‘Class’ has imbalanced values (0 and 1). It was important to balance those values before training the dataset for modeling. I employed both under-sampled and oversampled imbalance adjustment techniques to balance the dependent variable values.
-The classification accuracy of the model is 0.94 (94%) for both under-sampled and oversampled trained datasets. However, the misclassification rate is 0.06 (6%). 
-The probability that the model’s true prediction was right (precision) is 0.92 (92%) and 0.96 (96%) for 0 (genuine credit cards) and 1 (fraudulent credit cards) respectively.
-The model has a recall or sensitivity of 0.97 (97%) and 0.92 (92%) for 0 (genuine credit cards) and 1 (fraudulent credit cards) respectively.
-Finally, the model has an F1 score of 0.95 (95%) and 0.94 (94%) for 0 (genuine credit cards) and 1 (fraudulent credit cards) respectively.
 
-![image](https://user-images.githubusercontent.com/83024506/199285798-f26523b1-08e3-4ff0-ba19-43ae077196f5.png)
+The classification accuracy of the model is 0.94 (94%) for both under-sampled and oversampled trained datasets. However, the misclassification rate is 0.06 (6%). 
+
+The probability that the model’s true prediction was right (precision) is 0.92 (92%) and 0.96 (96%) for 0 (genuine credit cards) and 1 (fraudulent credit cards) respectively.
+
+The model has a recall or sensitivity of 0.97 (97%) and 0.92 (92%) for 0 (genuine credit cards) and 1 (fraudulent credit cards) respectively.
+
+Finally, the model has an F1 score of 0.95 (95%) and 0.94 (94%) for 0 (genuine credit cards) and 1 (fraudulent credit cards) respectively.
